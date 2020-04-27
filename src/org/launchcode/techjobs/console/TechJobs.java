@@ -115,20 +115,14 @@ public class TechJobs {
             for (HashMap jobs : someJobs) {
                 System.out.println("*****");
                 jobs.forEach((key, value) -> System.out.println( key + ": " + value + "."));
-//
-//
-//                }
             }
         } else {
             System.out.println("No jobs match your search.");
 
-
-
-
-            }
-
         }
 
-//        System.out.println("printJobs is not implemented yet");
     }
+
+//        System.out.println("printJobs is not implemented yet");
+}
 
